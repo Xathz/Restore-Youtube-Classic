@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id              RestoreYoutubeClassic
 // @name            Restore Youtube Classic
-// @version         3
+// @version         4
 // @author          Xathz
 // @description     Restore the classic Youtube style, the new one breaks many addons/extensions.
 // @namespace       https://github.com/Xathz/Restore-Youtube-Classic
@@ -20,7 +20,7 @@
 // @run-at          document-start
 // ==/UserScript==
 
-var prefCookie = "f6=2008";
+var prefCookie = "f6=1008";
 
 window.addEventListener('load', function() {
     var oldCookie = getCookie("PREF");
